@@ -106,30 +106,6 @@ void modifiedBubbleSort(int a[])
     }
 }
 
-/*void insertionSort(int a[])
-{
-    int i,j,temp,start=1;
-
-    for(i=0;i<10;i++)
-    {
-        int t=start;
-        temp=a[t];
-        for(j=1;j<10;j++)
-        {
-            if(t-1==-1)
-            {
-                break;
-            }
-            else if(a[t-1]<a[t])
-                break;
-            else
-            {
-
-            }
-        }
-    }
-}*/
-
 // quick:-
 void quickS(int a[],int st,int end)
 {
@@ -164,47 +140,6 @@ int part(int a[],int st,int end)
 
 //merge sort:-
 
-/*void Merge(int L[],int R[], int a[], int LC,int RC)
-{
-    int i,j,k;
-    // i - to mark the index of left aubarray (L)
-	// j - to mark the index of right sub-raay (R)
-	// k - to mark the index of merged subarray (A)
-	i=j=k=0;
-
-	while(i<LC && j<RC)
-    {
-        if(L[i]<R[j])
-        {
-            A[k]=L[i];
-            i++;
-            k++;
-        }
-        else
-        {
-            A[k]=R[j];
-            j++;
-            k++;
-        }
-    }
-    while(i<LC)
-    {
-        a[k]=L[i];
-        i++;
-        k++;
-    }
-    while(j<RC)
-    {
-        a[k]=R[j];
-        j++;
-        k++;
-    }
-}
-
-void mergeS(int a[],int size)
-{
-    int mid,i,
-}*/
 
 void merge(int arr[], int l, int m, int r)
 {
